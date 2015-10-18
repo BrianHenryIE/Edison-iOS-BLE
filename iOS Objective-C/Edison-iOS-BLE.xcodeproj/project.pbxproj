@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6207C9E1B28BF1100A1BF77 /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6207C9D1B28BF1100A1BF77 /* BluetoothManager.m */; };
+		A6207CA51B28C93800A1BF77 /* DeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6207CA41B28C93800A1BF77 /* DeviceTableViewCell.m */; };
+		A6207CA81B28C94400A1BF77 /* ReadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6207CA71B28C94400A1BF77 /* ReadingTableViewCell.m */; };
+		A648B4C11B10ACD80063F1A8 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A648B4C01B10ACD80063F1A8 /* BluetoothViewController.m */; };
+		A67A23D01B107EEE003A3B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A67A23CF1B107EEE003A3B28 /* main.m */; };
+		A67A23D31B107EEE003A3B28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A67A23D21B107EEE003A3B28 /* AppDelegate.m */; };
+		A67A23DC1B107EEE003A3B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67A23DA1B107EEE003A3B28 /* Main.storyboard */; };
+		A67A23DE1B107EEE003A3B28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67A23DD1B107EEE003A3B28 /* Images.xcassets */; };
+		A67A23E11B107EEE003A3B28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67A23DF1B107EEE003A3B28 /* LaunchScreen.xib */; };
+		A67A23ED1B107EEF003A3B28 /* Edison-iOS-BLE-Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67A23EC1B107EEF003A3B28 /* Edison-iOS-BLE-Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A67A23E71B107EEF003A3B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67A23C21B107EEE003A3B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67A23C91B107EEE003A3B28;
+			remoteInfo = Edison-iOS-BLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6207C9C1B28BF1100A1BF77 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		A6207C9D1B28BF1100A1BF77 /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		A6207CA31B28C93800A1BF77 /* DeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewCell.h; sourceTree = "<group>"; };
+		A6207CA41B28C93800A1BF77 /* DeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewCell.m; sourceTree = "<group>"; };
+		A6207CA61B28C94400A1BF77 /* ReadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingTableViewCell.h; sourceTree = "<group>"; };
+		A6207CA71B28C94400A1BF77 /* ReadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingTableViewCell.m; sourceTree = "<group>"; };
+		A648B4BF1B10ACD80063F1A8 /* BluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
+		A648B4C01B10ACD80063F1A8 /* BluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
+		A67A23CA1B107EEE003A3B28 /* Edison-iOS-BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edison-iOS-BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67A23CE1B107EEE003A3B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67A23CF1B107EEE003A3B28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A67A23D11B107EEE003A3B28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A67A23D21B107EEE003A3B28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A67A23DB1B107EEE003A3B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A67A23DD1B107EEE003A3B28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A67A23E01B107EEE003A3B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A67A23E61B107EEF003A3B28 /* Edison-iOS-BLE.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Edison-iOS-BLE.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67A23EB1B107EEF003A3B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67A23EC1B107EEF003A3B28 /* Edison-iOS-BLE-Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Edison-iOS-BLE-Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67A23C71B107EEE003A3B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67A23E31B107EEF003A3B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6207C9F1B28C8F300A1BF77 /* BluetoothViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A648B4BF1B10ACD80063F1A8 /* BluetoothViewController.h */,
+				A648B4C01B10ACD80063F1A8 /* BluetoothViewController.m */,
+				A6207CA31B28C93800A1BF77 /* DeviceTableViewCell.h */,
+				A6207CA41B28C93800A1BF77 /* DeviceTableViewCell.m */,
+				A6207CA61B28C94400A1BF77 /* ReadingTableViewCell.h */,
+				A6207CA71B28C94400A1BF77 /* ReadingTableViewCell.m */,
+			);
+			name = BluetoothViewController;
+			sourceTree = "<group>";
+		};
+		A67A23C11B107EEE003A3B28 = {
+			isa = PBXGroup;
+			children = (
+				A67A23CC1B107EEE003A3B28 /* Edison-iOS-BLE */,
+				A67A23E91B107EEF003A3B28 /* Edison-iOS-BLE-Tests */,
+				A67A23CB1B107EEE003A3B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67A23CB1B107EEE003A3B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67A23CA1B107EEE003A3B28 /* Edison-iOS-BLE.app */,
+				A67A23E61B107EEF003A3B28 /* Edison-iOS-BLE.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67A23CC1B107EEE003A3B28 /* Edison-iOS-BLE */ = {
+			isa = PBXGroup;
+			children = (
+				A67A23D11B107EEE003A3B28 /* AppDelegate.h */,
+				A67A23D21B107EEE003A3B28 /* AppDelegate.m */,
+				A67A23DA1B107EEE003A3B28 /* Main.storyboard */,
+				A67A23DD1B107EEE003A3B28 /* Images.xcassets */,
+				A67A23DF1B107EEE003A3B28 /* LaunchScreen.xib */,
+				A67A23CD1B107EEE003A3B28 /* Supporting Files */,
+				A6207C9F1B28C8F300A1BF77 /* BluetoothViewController */,
+				A6207C9C1B28BF1100A1BF77 /* BluetoothManager.h */,
+				A6207C9D1B28BF1100A1BF77 /* BluetoothManager.m */,
+			);
+			name = "Edison-iOS-BLE";
+			path = Edison-iOS-BLE;
+			sourceTree = "<group>";
+		};
+		A67A23CD1B107EEE003A3B28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67A23CE1B107EEE003A3B28 /* Info.plist */,
+				A67A23CF1B107EEE003A3B28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A67A23E91B107EEF003A3B28 /* Edison-iOS-BLE-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A67A23EC1B107EEF003A3B28 /* Edison-iOS-BLE-Tests.m */,
+				A67A23EA1B107EEF003A3B28 /* Supporting Files */,
+			);
+			name = "Edison-iOS-BLE-Tests";
+			path = Edison-iOS-BLE-Tests;
+			sourceTree = "<group>";
+		};
+		A67A23EA1B107EEF003A3B28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67A23EB1B107EEF003A3B28 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67A23C91B107EEE003A3B28 /* Edison-iOS-BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67A23F01B107EEF003A3B28 /* Build configuration list for PBXNativeTarget "Edison-iOS-BLE" */;
+			buildPhases = (
+				A67A23C61B107EEE003A3B28 /* Sources */,
+				A67A23C71B107EEE003A3B28 /* Frameworks */,
+				A67A23C81B107EEE003A3B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Edison-iOS-BLE";
+			productName = Edison-iOS-BLE;
+			productReference = A67A23CA1B107EEE003A3B28 /* Edison-iOS-BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67A23E51B107EEF003A3B28 /* Edison-iOS-BLE-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67A23F31B107EEF003A3B28 /* Build configuration list for PBXNativeTarget "Edison-iOS-BLE-Tests" */;
+			buildPhases = (
+				A67A23E21B107EEF003A3B28 /* Sources */,
+				A67A23E31B107EEF003A3B28 /* Frameworks */,
+				A67A23E41B107EEF003A3B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67A23E81B107EEF003A3B28 /* PBXTargetDependency */,
+			);
+			name = "Edison-iOS-BLE-Tests";
+			productName = Edison-iOS-BLE-Tests;
+			productReference = A67A23E61B107EEF003A3B28 /* Edison-iOS-BLE.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67A23C21B107EEE003A3B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Brian Henry";
+				TargetAttributes = {
+					A67A23C91B107EEE003A3B28 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3RM6H33EW7;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					A67A23E51B107EEF003A3B28 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A67A23C91B107EEE003A3B28;
+					};
+				};
+			};
+			buildConfigurationList = A67A23C51B107EEE003A3B28 /* Build configuration list for PBXProject "Edison-iOS-BLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67A23C11B107EEE003A3B28;
+			productRefGroup = A67A23CB1B107EEE003A3B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67A23C91B107EEE003A3B28 /* Edison-iOS-BLE */,
+				A67A23E51B107EEF003A3B28 /* Edison-iOS-BLE-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67A23C81B107EEE003A3B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67A23DC1B107EEE003A3B28 /* Main.storyboard in Resources */,
+				A67A23E11B107EEE003A3B28 /* LaunchScreen.xib in Resources */,
+				A67A23DE1B107EEE003A3B28 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67A23E41B107EEF003A3B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67A23C61B107EEE003A3B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67A23D31B107EEE003A3B28 /* AppDelegate.m in Sources */,
+				A648B4C11B10ACD80063F1A8 /* BluetoothViewController.m in Sources */,
+				A6207CA81B28C94400A1BF77 /* ReadingTableViewCell.m in Sources */,
+				A67A23D01B107EEE003A3B28 /* main.m in Sources */,
+				A6207C9E1B28BF1100A1BF77 /* BluetoothManager.m in Sources */,
+				A6207CA51B28C93800A1BF77 /* DeviceTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67A23E21B107EEF003A3B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67A23ED1B107EEF003A3B28 /* Edison-iOS-BLE-Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A67A23E81B107EEF003A3B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67A23C91B107EEE003A3B28 /* Edison-iOS-BLE */;
+			targetProxy = A67A23E71B107EEF003A3B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A67A23DA1B107EEE003A3B28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67A23DB1B107EEE003A3B28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A67A23DF1B107EEE003A3B28 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67A23E01B107EEE003A3B28 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A67A23EE1B107EEF003A3B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A67A23EF1B107EEF003A3B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67A23F11B107EEF003A3B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Edison-iOS-BLE/Edison-iOS-BLE.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Edison-iOS-BLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Edison-iOS-BLE";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A67A23F21B107EEF003A3B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Edison-iOS-BLE/Edison-iOS-BLE.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Edison-iOS-BLE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Edison-iOS-BLE";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A67A23F41B107EEF003A3B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Edison-iOS-BLE-Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Edison-iOS-BLE";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edison-iOS-BLE.app/Edison-iOS-BLE";
+			};
+			name = Debug;
+		};
+		A67A23F51B107EEF003A3B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Edison-iOS-BLE-Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Edison-iOS-BLE";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edison-iOS-BLE.app/Edison-iOS-BLE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67A23C51B107EEE003A3B28 /* Build configuration list for PBXProject "Edison-iOS-BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67A23EE1B107EEF003A3B28 /* Debug */,
+				A67A23EF1B107EEF003A3B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67A23F01B107EEF003A3B28 /* Build configuration list for PBXNativeTarget "Edison-iOS-BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67A23F11B107EEF003A3B28 /* Debug */,
+				A67A23F21B107EEF003A3B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67A23F31B107EEF003A3B28 /* Build configuration list for PBXNativeTarget "Edison-iOS-BLE-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67A23F41B107EEF003A3B28 /* Debug */,
+				A67A23F51B107EEF003A3B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67A23C21B107EEE003A3B28 /* Project object */;
+}
